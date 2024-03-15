@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: ewd-assignment1
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: ewd-assignment1
+    app.kubernetes.io/part-of: ewd-assignment1
+  name: ewd-assignment1e2jv
+spec:
+  path: /
+  port:
+    targetPort: 3001
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: ewd-assignment1
+    weight: null
+status: {}
