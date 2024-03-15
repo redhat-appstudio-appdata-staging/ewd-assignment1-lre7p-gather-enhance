@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ewd-assignment1
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/ewd-assignment1/ewd-assignment1@sha256:402165fa7cd3b161246cadf099967f1122ff15c5ba0aad8c1c109af9682de7c2
         name: my-nodejs
         ports:
         - containerPort: 3001
