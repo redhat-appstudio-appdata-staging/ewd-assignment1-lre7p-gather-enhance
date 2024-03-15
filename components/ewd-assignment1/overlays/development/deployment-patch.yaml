@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/ewd-assignment1/ewd-assignment1@sha256:402165fa7cd3b161246cadf099967f1122ff15c5ba0aad8c1c109af9682de7c2
+      - image: quay.io/redhat-user-workloads-stage/catoconn-rhmi-tenant/ewd-assignment1/ewd-assignment1@sha256:ea9551e25c84640841a9316efb93e7d58111e496cd3e246d6f84a9b6e826f1e4
         name: my-nodejs
         resources: {}
 status: {}
